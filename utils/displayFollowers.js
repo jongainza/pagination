@@ -2,7 +2,7 @@ const container = document.querySelector(".container");
 const title = document.querySelector(".section-title h1");
 
 const displayFollowers = (followers) => {
-  title.textContent = "pagination";
+  title.textContent = "gitHub followers";
 
   container.innerHTML = followers
     .map((follower) => {
