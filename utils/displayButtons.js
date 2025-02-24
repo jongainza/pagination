@@ -1,6 +1,4 @@
 const displayButtons = (btnContainer, pages, index) => {
-  console.log({ index });
-
   let btns = pages.map((page, pageIndex) => {
     return `
   <button class='page-btn ${

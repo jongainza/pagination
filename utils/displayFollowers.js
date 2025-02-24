@@ -6,7 +6,6 @@ const displayFollowers = (followers) => {
 
   container.innerHTML = followers
     .map((follower) => {
-      console.log(follower);
       const { login: name, avatar_url: img, html_url } = follower;
       return `
   <article class="card">
